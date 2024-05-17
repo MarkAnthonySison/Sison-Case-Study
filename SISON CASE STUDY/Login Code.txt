@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Soul Pastries and Desserts</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url("https://www.southernliving.com/thmb/pUZlkH2_Z6toYtGuRVMtWg2oMp0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/unknown-1-3cc1f03c7f9c4594b4f602e0714253c0.jpeg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .login-container {
+            background-color: #f7faf342;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0px 0px 10px 0px rgba(150, 72, 72, 0.1);
+            border: 10px solid #070707;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #131212;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #dad87a;
+            color: #191512;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #b1bb00;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="Logo.png" alt="Your Image">
+        <h2>Login</h2>
+        <form action="HOME.html" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
